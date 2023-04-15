@@ -19,7 +19,7 @@ apt install git -y
 git clone --depth 1 https://github.com/BINOD-XD/Ip-Tracker
 ```
 ```
-cd IP-Tracer
+cd Ip-Tracker
 ```
 ```
 chmod +x install
