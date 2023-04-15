@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+# Tool Name :- Ip-Tracker
+# Author :- Reyad X Shipu
+# Date :- 15/04/2023
+
+case "$1" in
+  -m)
+    php modules/.tracem.php
+  ;;
+  -t)
+    case "$#" in
+    2)
+      php modules/.traceip.php $2
+    ;;
+    *)
+      echo "error : invalid arguments !!"
+      echo "use: trace -t <target_ip>"
+    ;;
+    esac
+  ;;
+  -u)
+    php modules/.update.php
+    exit
+  ;;
+  update)
+    php modules/.update.php
+    exit
+  ;;
+  start)
+    php .Ip-Tracker.php
+    exit
+  ;;
+  -rm)
+    php modules/.uninstall.php
+    exit
+  ;;
+  *)
+    echo "Usage: trace [command]... [arguments]..."
+    echo " Commands:"
+    echo " -t <target_ip>      to trace target ip."
+    echo " -m                  to trace your own ip."
+    echo " -h                  to show help."
+    echo " -u                  to update Ip-Tracker."
+    echo " help                to show help."
+    echo " update              to update Ip-Tracker."
+    echo " start               to start Ip-Tracker menu."
+esac
