@@ -20,8 +20,8 @@ system("clear");
 \033[1;37m Owner   :            REYAD X SHIPU
 \033[1;37m Facebook:            MD REYAD HOSSAIN SHANTO
 \033[1;37m Github  :            BINOD-XD
-\033[1;37m WhatsApp  :       +8801989861704
-                       \033[1;36mTrack Any Ip Address
+\033[1;37m WhatsApp  :          +8801989861704
+                    \033[1;36mTrack Any Ip Address
 \033[1;36m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;37m
 
 \033[00m
