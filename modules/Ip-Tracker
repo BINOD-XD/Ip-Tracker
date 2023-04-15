@@ -1,0 +1,11 @@
+# Tool Name :- Ip-Tracker
+# Author :- Reyad X Shipu
+# Date :- 15/04/2023
+# Powered By :- BINOD-XD
+if [ -d /data/data/com.termux/files/usr/share ];then
+  cd /data/data/com.termux/files/usr/share/Ip-Tracker
+  exec bash trace $@
+elif [ -d /usr/share ];then
+  cd /usr/share/Ip-Tracker
+  exec bash trace $@
+fi
